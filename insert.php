@@ -93,6 +93,7 @@ if( isset($_POST['submit_data']) ){
 	}
 }
 
+
  ?>
 
 <!DOCTYPE html>
@@ -102,6 +103,9 @@ if( isset($_POST['submit_data']) ){
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <div style="width: 500px; margin: 20px auto;">
+    <h1>Simple Ideogram OCR</h1>
+    </div>    
 	<div style="width: 500px; margin: 20px auto;">
 
 		<!-- showing the message here-->
@@ -121,14 +125,23 @@ if( isset($_POST['submit_data']) ){
 			</tr>
 -->
 			<tr>
-				<td>image:</td>
+				<td>Insert image to extract text from</td>
 				<td><input type="file" name="image"></td>
 			<tr>
-				<td><a href="list.php">See Data</a></td>
+				<td><a href="list.php">See results</a></td>
 				<td><input name="submit_data" type="submit" value="Insert Data"></td>
 			</tr>
 			</form>
 		</table>
 	</div>
+    <tr>
+    <div id="cover">
+    <h1>For best accuracy, please use images with high contrast, high resolution, no skewer and using regular fonts </h1>    
+    <img src="https://i.imgur.com/0k5xnTb.png">   
+    <img src="https://i.imgur.com/vXZiFqa.png">
+    <img src="https://i.imgur.com/AW9wtfi.png">
+    <img src="https://i.imgur.com/E2R0JQy.png">
+</div>
+    </tr>    
 </body>
 </html>
