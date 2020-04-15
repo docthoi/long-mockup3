@@ -7,7 +7,8 @@ list.php,
 "uploads" folder:
   -kortext-1.jpg
   
-  please use MAMP to access, then start with list.php
+  How to use:
+  -Please use MAMP to access, then start with list.php, then upload the image called "kortext.png" inside the "uploads" folder.
   
 Files used for OCR testing (not working at the moment, missing "vendor" folder):
 composer.json,
